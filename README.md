@@ -72,7 +72,7 @@ You need to have [Node.js](https://nodejs.org/), [PostgreSQL](https://www.postgr
 
 ### Docker
 
-Download the `docker-compose.yml` and the `.docker.env`-file from the repository and configure the `.docker.env` ([see below](#configuration)). 
+Download the [`docker-compose.yml`](docker-compose.yml) and the [`.docker.env`](.docker.env)-file from the repository and configure the `.docker.env` ([see below](#configuration)). 
 To execute Kutt you simply have to run `docker-compose up -d` command and then the app should be ready on port "3000".
 
 The `docker-compose.yml` uses the official kutt docker image available on [Docker Hub](https://hub.docker.com/r/kutt/kutt).
@@ -122,6 +122,7 @@ Download Kutt's official workflow for [Alfred](https://www.alfredapp.com/) app f
 | Java       | [kutt-desktop](https://github.com/cipher812/kutt-desktop)                         | A Cross platform Java desktop application for Kutt |
 | Go         | [kutt-go](https://github.com/raahii/kutt-go)                                      | Go client for Kutt.it url shortener                |
 | BASH       | [GitHub Gist](https://gist.github.com/hashworks/6d6e4eae8984a5018f7692a796d570b4) | Simple BASH function to access the API             |
+| BASH       | [url-shortener](https://gitlab.tim-peters.org/tim/url-shortener)                  | Simple BASH script with GUI                        |
 
 ## Donate
 
